@@ -1,0 +1,238 @@
+body {
+  width: 100%;
+  background-color: #e7f0f1d4;
+}
+
+/* 
+Typography
+
+main body 15 - 25
+line spacing 120% - 145% of text size
+primary heading 180% - 200% of main body
+secondary heading 130% - 150% of main body */
+
+header {
+  width: 100%;
+  padding: 20px 8rem;
+  background-color: white;
+  display: flex;
+  box-shadow: 0px 3px 27px #0000001f;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #050533;
+}
+
+.button {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #ff9636;
+  color: #0a4158;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .posts-list,
+.single-post {
+  max-width: 1340px;
+  margin: 30px auto;
+  padding: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  background-color: white;
+}
+
+@media screen and (max-width: 1440px) {
+  main .posts-list,
+  .single-post {
+    max-width: 1080px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  main .posts-list,
+  .single-post {
+    max-width: 940px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  header {
+    padding: 20px 4rem;
+  }
+  main .posts-list,
+  .single-post {
+    max-width: 790px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  header {
+    padding: 16px 2rem;
+  }
+  main .posts-list,
+  .single-post {
+    max-width: 790px;
+  }
+}
+
+main .posts-list .post,
+main .single-post .post {
+  margin: 10px 15px;
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+main .posts-list .post:last-of-type {
+  border: none;
+}
+
+main .posts-list .post h1,
+main .single-post h1 {
+  font-size: 45px;
+  font-family: "Aref Ruqaa";
+  color: #050533;
+  line-height: 55px;
+  margin-bottom: 24px;
+}
+
+main .posts-list .post p,
+main .single-post p {
+  font-size: 18px;
+  font-family: Arial;
+  margin-bottom: 15px;
+  line-height: 24px;
+  color: #0a4158;
+}
+
+main .posts-list .post .post-credit,
+main .single-post .postCredit {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main .posts-list .post .reactions {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+main .reaction-button {
+  padding: 10px;
+  margin: 4px;
+  border: none;
+  background-color: #22d6dc3f;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px #0000001f;
+}
+
+main .posts-list .error {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: arial;
+  padding: 34px;
+  color: white;
+  border: 5px solid #ff3333e6;
+  background-color: #f96161e6;
+}
+
+main .posts-list .post .view-button {
+  text-align: right;
+  padding: 6px;
+}
+
+main .posts-list .post .view-button button {
+  font-size: 22px;
+
+  padding: 16px;
+  color: #0a4158;
+  margin-bottom: 20px;
+  border: none;
+  background-color: rgb(255, 150, 54);
+  border-radius: 5px;
+}
+
+main .add-post {
+  max-width: 600px;
+  padding: 1em 2em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: #fff;
+}
+
+main .add-post h1 {
+  font-size: 44px;
+  margin: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #050533;
+}
+
+@media screen and (max-width: 768px) {
+  main .add-post h1 {
+    font-size: 28px;
+  }
+  main .add-post label {
+    font-size: 16px;
+  }
+}
+
+main .add-post form {
+  padding: 0 8px;
+}
+
+main .add-post label {
+  font-size: 28px;
+  display: block;
+  margin: 20px 0;
+  font-family: "aref ruqaa";
+}
+
+main .add-post input,
+textarea,
+select {
+  width: 100%;
+  height: 42px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+main .add-post input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  border: 1px solid #a7b7b9d4;
+}
+
+main .add-post textarea {
+  height: 150px;
+}
+
+main .add-post form .buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+main .add-post form button {
+  padding: 14px;
+  margin: 40px 0px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #ff9636;
+  color: #0a4158;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+main .single-post .post {
+  border: none;
+  padding-top: 20px;
+}
+
+main .single-post .post button {
+  margin: 20px;
+}

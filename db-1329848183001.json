@@ -1,0 +1,55 @@
+
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post No.1",
+      "content": "This is post number 1 content",
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      }
+    },
+    {
+      "id": 2,
+      "title": "Post No.2",
+      "content": "This is post number 2 content",
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      }
+    },
+    {
+      "title": "new post ",
+      "content": "this is body",
+      "userId": "1",
+      "id": 3
+    },
+    {
+      "title": "post no 4",
+      "content": "this is body",
+      "userId": "1",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": "0",
+      "name": "ibraham linkon"
+    },
+    {
+      "id": "1",
+      "name": "george washington"
+    },
+    {
+      "id": "2",
+      "name": "barak obama"
+    }
+  ]
+}

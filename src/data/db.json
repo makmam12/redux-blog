@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "id": "8",
+      "title": "New Post",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint voluptatem dolores nisi doloribus sapiente dolor non pariatur, voluptate laborum, consequuntur optio debitis molestias? Quae maiores necessitatibus rerum facere id at ullam sequi amet rem tempore nemo, obcaecati aliquid optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint voluptatem dolores nisi doloribus sapiente dolor non pariatur, voluptate laborum, consequuntur optio debitis molestias? Quae maiores necessitatibus rerum facere id at ullam sequi amet rem tempore nemo, obcaecati aliquid optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint voluptatem dolores nisi doloribus sapiente dolor non pariatur, voluptate laborum, consequuntur optio debitis molestias? Quae maiores necessitatibus rerum facere id at ullam sequi amet rem tempore nemo, obcaecati aliquid optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint voluptatem dolores nisi doloribus sapiente dolor non pariatur, voluptate laborum, consequuntur optio debitis molestias? Quae maiores necessitatibus rerum facere id at ullam sequi amet rem tempore nemo, obcaecati aliquid optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint voluptatem dolores nisi doloribus sapiente dolor non pariatur, voluptate laborum, consequuntur optio debitis molestias? Quae maiores necessitatibus rerum facere id at ullam sequi amet rem tempore nemo, obcaecati aliquid optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint voluptatem dolores nisi doloribus sapiente dolor non pariatur, voluptate laborum, consequuntur optio debitis molestias? Quae maiores necessitatibus rerum facere id at ullam sequi amet rem tempore nemo, obcaecati aliquid optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint voluptatem dolores nisi doloribus sapiente dolor non pariatur, voluptate laborum, consequuntur optio debitis molestias? Quae maiores necessitatibus rerum facere id at ullam sequi amet rem tempore nemo, obcaecati aliquid optio?",
+      "userId": 1,
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      }
+    },
+    {
+      "id": "10",
+      "title": "sdf",
+      "content": "sdf",
+      "userId": 3,
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      }
+    },
+    {
+      "title": "Test after the Css",
+      "content": "hello world",
+      "userId": "3",
+      "id": "11"
+    },
+    {
+      "title": "The very last test",
+      "content": "Welcome to the freedom",
+      "userId": 3,
+      "id": "12"
+    },
+    {
+      "title": "slkjlk",
+      "content": "ooweyoew",
+      "userId": 2,
+      "id": "13"
+    },
+    {
+      "id": "9c0b",
+      "title": "30/9",
+      "content": "hello",
+      "userId": 1
+    },
+    {
+      "id": "bad7",
+      "title": "after",
+      "content": "new\n",
+      "userId": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "ibraham linkon"
+    },
+    {
+      "id": 2,
+      "name": "george washington"
+    },
+    {
+      "id": 3,
+      "name": "barak obama"
+    }
+  ]
+}
